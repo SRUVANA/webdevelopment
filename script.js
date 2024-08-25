@@ -26,6 +26,6 @@ function calculateAge() {
     if (isNaN(years)) {
         document.getElementById('result').innerHTML = "Please select a valid date.";
     } else {
-        document.getElementById('result').innerHTML = You are ${years} years, ${months} months, and ${days} days old.;
+        document.getElementById('result').innerHTML = `You are ${years} years, ${months} months, and ${days} days old.`;
     }
 }
