@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+
+        <!-- Prompt the user to select their date of birth -->
+        <label for="dob">Please select your Date of Birth:</label>
+        <input type="date" id="dob" class="input-field">
+
+        <!-- Button that will calculate the user's age -->
+        <button onclick="calculateAge()" class="btn">Calculate Age</button>
+
+        <!-- This paragraph will display the result -->
+        <p id="result" class="result"></p>
+    </div>
+
+    <!-- Link to the JavaScript file that contains our age calculation logic -->
+    <script src="script.js"></script>
+</body>
+</html>
